@@ -1,7 +1,6 @@
 import { View, Image } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, { useAnimatedStyle, useSharedValue, withSpring } from 'react-native-reanimated';
-import Animated from 'react-native-reanimated';
 
 export default function EmojiSticker({ imageSize, stickerSource }) {
     const translateX = useSharedValue(0);

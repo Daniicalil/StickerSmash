@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Platform} from "react-native";
 import * as ImagePicker from 'expo-image-picker';
